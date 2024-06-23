@@ -1,0 +1,24 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mila-klimovich/twitter.git"
+  },
+  "author": "Mila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mila-klimovich/twitter/issues"
+  },
+  "homepage": "https://github.com/mila-klimovich/twitter#readme",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0"
+  },
+  "type": "module"
+}
