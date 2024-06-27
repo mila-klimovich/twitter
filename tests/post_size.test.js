@@ -8,9 +8,7 @@ describe('The function to check the post size calculation', () => {
     const result = postSize('Всем привет!');
     assert.equal(expectedResult, result);
   });
-});
 
-describe('The function to check the post size calculation', () => {
   it('with one link', () => {
     const expectedResult = 45;
     const result = postSize(
@@ -18,9 +16,7 @@ describe('The function to check the post size calculation', () => {
     );
     assert.equal(expectedResult, result);
   });
-});
 
-describe('The function to check the post size calculation', () => {
   it('with two links', () => {
     const expectedResult = 37;
     const result = postSize(
@@ -28,9 +24,7 @@ describe('The function to check the post size calculation', () => {
     );
     assert.equal(expectedResult, result);
   });
-});
 
-describe('The function to check the post size calculation', () => {
   it('with three links', () => {
     const expectedResult = 65;
     const result = postSize(
@@ -38,9 +32,7 @@ describe('The function to check the post size calculation', () => {
     );
     assert.equal(expectedResult, result);
   });
-});
 
-describe('The function to check the post size calculation', () => {
   it('with four links', () => {
     const expectedResult = 72;
     const result = postSize(
@@ -48,9 +40,7 @@ describe('The function to check the post size calculation', () => {
     );
     assert.equal(expectedResult, result);
   });
-});
 
-describe('The function to check the post size calculation', () => {
   it('with five links', () => {
     const expectedResult = 251;
     const result = postSize(
@@ -58,9 +48,7 @@ describe('The function to check the post size calculation', () => {
     );
     assert.equal(expectedResult, result);
   });
-});
 
-describe('The function to check the post size calculation', () => {
   it('with six links', () => {
     const expectedResult = 140;
     const result = postSize(
@@ -68,9 +56,7 @@ describe('The function to check the post size calculation', () => {
     );
     assert.equal(expectedResult, result);
   });
-});
 
-describe('The function to check the post size calculation', () => {
   it('with seven links', () => {
     const expectedResult = 220;
     const result = postSize(
@@ -78,9 +64,7 @@ describe('The function to check the post size calculation', () => {
     );
     assert.equal(expectedResult, result);
   });
-});
 
-describe('The function to check the post size calculation', () => {
   it('with eight links', () => {
     const expectedResult = 187;
     const result = postSize(
@@ -88,9 +72,7 @@ describe('The function to check the post size calculation', () => {
     );
     assert.equal(expectedResult, result);
   });
-});
 
-describe('The function to check the post size calculation', () => {
   it('with nine links', () => {
     const expectedResult = 188;
     const result = postSize(
