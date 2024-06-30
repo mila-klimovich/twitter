@@ -1,4 +1,4 @@
-function convertTime(postDate, currentDate) {
+export default function convertTime(postDate, currentDate) {
     let result = "";
     const timeDifferenceInMinutes = Math.floor(currentDate - postDate) / 60000;
   
@@ -29,4 +29,10 @@ function convertTime(postDate, currentDate) {
 }
 
 
-// console.log(convertTime(new Date("2021-01-27T05:00:00Z"), new Date("2024-06-27T09:25:00Z")));
+console.log(convertTime(new Date("2024-06-30T18:24:00Z"), new Date("2024-06-30T18:25:00Z")));
+console.log(convertTime(new Date("2024-06-30T17:26:00Z"), new Date("2024-06-30T18:25:00Z")));
+console.log(convertTime(new Date("2024-06-30T17:25:00Z"), new Date("2024-06-30T18:25:00Z")));
+console.log(convertTime(new Date("2024-06-29T17:25:00Z"), new Date("2024-06-30T18:25:00Z")));
+console.log(convertTime(new Date("2024-06-25T17:25:00Z"), new Date("2024-06-30T18:25:00Z")));
+console.log(convertTime(new Date("2023-06-30T17:25:00Z"), new Date("2024-06-30T18:25:00Z")));
+console.log(convertTime(new Date("2020-06-30T17:25:00Z"), new Date("2024-06-30T18:25:00Z")));
