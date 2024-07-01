@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "plugins": [
+    "mocha"
+  ],
+  "rules": {
+    "import/extensions": ["error", "ignorePackages", {"js": "always"}],
+    "prefer-arrow-callback": 0,
+    "mocha/prefer-arrow-callback": "error",
+    "linebreak-style": 0,
+    "func-names": "off"
+  }
+}
