@@ -1,17 +1,20 @@
 body {
     margin: 0;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
 }
 
 #container {
-    width: 100%;
-    font-family: 'Lato', sans-serif;
     font-size: 32px;
-    font-weight: 900;
-    text-shadow: 0px 3px 3px #B0B0B0;
+    font-weight: 800;
 }
 
-#slogan {
+.slogan {
+    font-size: 32px;
+        font-weight: 800;
     margin: 2vh 0;
+    font-size: 32px;
+    font-weight: 800;
 }
 
 #background {
@@ -29,11 +32,6 @@ body {
     font-weight: 600;
     padding: 15px;
     border-radius: 10px;
-    filter: drop-shadow(0px 3px 3px #B0B0B0);
-}
-
-#logo {
-    filter: drop-shadow(3px 3px 3px #A9A9A9);
 }
 
 #join {
@@ -47,4 +45,106 @@ body {
     background-color: white;
     border-color: #0057FF;
     color: #0057FF;
+}
+
+#users {
+    background-color: #0057FF;
+    width: 100%;
+    margin-top: -56px;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.statNumber {
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.statDes {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#feedHeader {
+    font-weight: 800;
+    font-size: 24px;
+    margin: 25px 15px;
+}
+
+.tweetConatainer {
+    display: flex;
+    margin: 15px;
+}
+
+.avatar {
+    height: 100%;
+}
+
+.nameAndTime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameAndTime p{
+    margin: 0;
+}
+
+.tweet {
+    margin-left: 15px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #e9e9e9;
+}
+
+.name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1D1E22;
+}
+
+.nickname {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ABACB1;
+}
+
+.timeAgo {
+    font-size: 10px;
+    font-weight: 400;
+    color: #ABACB1;
+    text-align: end;
+}
+
+.tweetText {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1D1E22;
+    margin: 10px 0;
+}
+
+.tweetText img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.stat {
+    display: flex;
+}
+
+.stat span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #B1B1B1;
+    margin-right: 30px;
+}
+
+.stat img{
+    height: 15px;
+    margin-right: 8px;
 }
