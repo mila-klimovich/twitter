@@ -9,11 +9,11 @@
 </head>
 <body>
     <div id="container">
-        <div id="start">
+        <div class="start">
             <img id="logo" src="images/vector.png" alt="ugh">
             <p class="slogan">Stay connected </br> with friends even when they're not around</p>
-            <button class="btn" id="join">Join now</button>
-            <button class="btn" id="sign">Sign in</button>
+            <button class="btn join">Join now</button>
+            <button class="btn sign">Sign in</button>
         </div>
         <div><img id="background" src="images/cover.png" alt=""></div>
     </div>
@@ -33,7 +33,7 @@
     </div>
     <div>
         <div id="feedHeader">Last tweets</div>
-        <div class="tweetConatainer">
+        <div class="tweetContainer">
             <img class="avatar" src="images/avatarVincent.png" alt="">
             <div class="tweet">
                 <div class="nameAndTime">
@@ -60,7 +60,7 @@
             </div>
         </div>
         <div class="line"></div>
-        <div class="tweetConatainer">
+        <div class="tweetContainer">
             <img class="avatar" src="images/avatarElon.png" alt="">
             <div class="tweet">
                 <div class="nameAndTime">
@@ -87,7 +87,7 @@
             </div>
         </div>
         <div class="line"></div>
-        <div class="tweetConatainer">
+        <div class="tweetContainer">
             <img class="avatar" src="images/avatarAlex.png" alt="">
             <div class="tweet">
                 <div class="nameAndTime">
@@ -116,7 +116,7 @@
             </div>
         </div>
         <div class="line"></div>
-        <div class="tweetConatainer">
+        <div class="tweetContainer">
             <img class="avatar" src="images/avatarMia.png" alt="">
             <div class="tweet">
                 <div class="nameAndTime">
@@ -146,10 +146,27 @@
             </div>
         </div>
     </div>
-    <div id="start">
+    <div class="start">
         <p class="slogan">Join now </br> and be the first </br> to find out</p>
-        <button class="btn" id="join">Join now</button>
-        <button class="btn" id="sign">Sign in</button>
+        <button class="btn join">Join now</button>
+        <button class="btn sign">Sign in</button>
     </div>
+    <div class="overlay" id="overlay"></div>
+    <div class="popup start" id="register">
+        <div class="greyLine"></div>
+        <h2>Join now!</h2>
+        <input type="text" id="email" placeholder="Enter email">
+        <input type="password" class="password" placeholder="Enter password">
+        <input type="password" class="password" placeholder="Confirm password">
+            <button class="join btn">Join</button>
+    </div>
+    <div class="popup start" id="login">
+        <div class="greyLine"></div>
+        <h2>Login now!</h2>
+        <input type="text" id="email" placeholder="Enter email">
+        <input type="password" class="password" placeholder="Enter password">
+        <button class="join btn" id="logBtn">Sign in</button>
+        </div>
+    <script src="assets/popup_form.js"></script>
 </body>
 </html>

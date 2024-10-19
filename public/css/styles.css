@@ -4,14 +4,9 @@ body {
     width: 100%;
 }
 
-#container {
-    font-size: 32px;
-    font-weight: 800;
-}
-
 .slogan {
     font-size: 32px;
-        font-weight: 800;
+    font-weight: 800;
     margin: 2vh 0;
     font-size: 32px;
     font-weight: 800;
@@ -21,7 +16,7 @@ body {
     width: 100%;
 }
 
-#start{
+.start{
     padding: 3vh 5vw; 
     text-align: center;
 }
@@ -34,14 +29,14 @@ body {
     border-radius: 10px;
 }
 
-#join {
+.join {
     margin-bottom: 18px;
     background-color: #0057FF;
     border: none;
     color: white;
 }
 
-#sign {
+.sign {
     background-color: white;
     border-color: #0057FF;
     color: #0057FF;
@@ -74,7 +69,7 @@ body {
     margin: 25px 15px;
 }
 
-.tweetConatainer {
+.tweetContainer {
     display: flex;
     margin: 15px;
 }
@@ -147,4 +142,62 @@ body {
 .stat img{
     height: 15px;
     margin-right: 8px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px 15px 0 0;
+    z-index: 9999;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 9998;
+}
+
+.popup h2 {
+    font-size: 26px;
+    font-weight: 800;
+    margin: 20px 0; 
+    font-weight: 800;
+}
+
+.popup input {
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 1px solid #B1B1B1;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.popup input::placeholder{
+    color: #B1B1B1;
+}
+
+.active{
+    display: block;
+}
+
+.greyLine{
+    background-color: #ABACB1;
+    width: 50px;
+    height: 5px;
+    margin: 0 auto;
+    border-radius: 3px;
 }
