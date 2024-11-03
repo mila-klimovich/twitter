@@ -7,6 +7,7 @@
     "test": "npx mocha tests",
     "lint": "npx eslint ."
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mila-klimovich/twitter.git"

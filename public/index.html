@@ -155,18 +155,20 @@
     <div class="popup start" id="register">
         <div class="greyLine"></div>
         <h2>Join now!</h2>
-        <input type="text" id="email" placeholder="Enter email">
-        <input type="password" class="password" placeholder="Enter password">
-        <input type="password" class="password" placeholder="Confirm password">
-            <button class="join btn">Join</button>
+        <p id="errorEmpty" class="error">Please fill in all required fields!</p>
+        <input type="text" id="emailReg" placeholder="Enter email">
+        <input type="password" id="passwordReg" class="password" placeholder="Enter password">
+        <input type="password" id="passwordRegConfirm" class="password" placeholder="Confirm password">
+            <button class="join btn" id="regBtn">Join</button>
     </div>
     <div class="popup start" id="login">
         <div class="greyLine"></div>
         <h2>Login now!</h2>
         <input type="text" id="email" placeholder="Enter email">
         <input type="password" class="password" placeholder="Enter password">
-        <button class="join btn" id="logBtn">Sign in</button>
+        <button class="sign btn" id="logBtn">Sign in</button>
         </div>
     <script src="assets/popup_form.js"></script>
+    <script type="module" src="assets/join_valid.js"></script>
 </body>
 </html>
