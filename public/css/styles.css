@@ -201,3 +201,22 @@ body {
     margin: 0 auto;
     border-radius: 3px;
 }
+
+#logBtn{
+    background-color: #0057FF;
+    border: none;
+    color: white;
+}
+
+#errorEmpty {
+    /* display: none; */
+    visibility: hidden;
+    color: red;
+    font-weight: bold;
+    /* margin: 7px 0; */
+}
+
+.error.active {
+    /* display: block !important; */
+    visibility: visible !important;
+}
