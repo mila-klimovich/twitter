@@ -75,7 +75,8 @@ body {
 }
 
 .avatar {
-    height: 100%;
+    width: 50px;
+    height: 50px;
 }
 
 .nameAndTime {
@@ -114,6 +115,7 @@ body {
     font-weight: 400;
     color: #ABACB1;
     text-align: end;
+    justify-content: end;
 }
 
 .tweetText {
@@ -219,4 +221,8 @@ body {
 .error.active {
     /* display: block !important; */
     visibility: visible !important;
+}
+
+#img_message {
+    width: 100%;
 }
